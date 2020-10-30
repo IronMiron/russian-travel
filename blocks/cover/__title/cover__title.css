@@ -1,0 +1,6 @@
+.cover__title {
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+    z-index: 3;
+}
