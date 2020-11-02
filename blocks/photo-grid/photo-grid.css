@@ -2,4 +2,28 @@
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
+    margin: 92px 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        gap: 14px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .photo-grid {
+        gap: 12px;
+        grid-template-columns: 1fr;
+        margin: 20% 5% 0;
+    }
 }
