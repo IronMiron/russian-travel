@@ -4,4 +4,27 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    width: 690px;
+    margin-left: 148px;
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-left: auto;
+        margin-right: auto;
+        width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        width: 90%;
+    }
 }
