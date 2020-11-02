@@ -1,28 +1,17 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: flex-end;
     padding-top: 28px;
     height: 52px;
-    width: 1184px;
-}
-
-@media screen and (max-width: 1280px) {
-    .header {
-        width: calc(1184*(100vw/1280));
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .header {
-        width: calc(928*(100vw/1024));
-    }
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        width: calc(720*(100vw/768));
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
@@ -30,6 +19,7 @@
     .header {
         padding-top: 16px;
         height: 42px;
-        width: calc(288*(100vw/320));
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
