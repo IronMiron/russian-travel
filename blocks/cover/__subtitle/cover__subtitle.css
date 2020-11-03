@@ -3,4 +3,10 @@
     grid-row: 2;
     text-align: center;
     z-index: 3;
+    color: #FFF;
+    margin: 0;
+}
+
+.cover__subtitle:visited {
+    color: #FFF;
 }

@@ -1,9 +1,7 @@
 .cover__overlay {
-    background-image: url(../../../images/cover.png);
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: black;
-    opacity: 0.1;
-    z-index: 2;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, max-content);
+    width: 100%;
+    text-decoration: none;
 }
