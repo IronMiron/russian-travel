@@ -1,5 +1,17 @@
 .cover {
     margin: 92px 48px 0;
+    background-image: url(../../images/cover.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cover::before {
+    content: '';
+    width: 0;
+    height: 0;
+    padding-top: calc(100%*740/1184);
 }
 
 @media screen and (max-width: 1024px) {

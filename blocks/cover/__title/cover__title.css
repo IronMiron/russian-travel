@@ -1,19 +1,29 @@
 .cover__title {
-    grid-row: 1;
-    grid-column: 1;
     text-align: center;
-    z-index: 3;
-    align-self: flex-end;
     color: #FFF;
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
     width: 560px;
-    justify-self: center;
-    margin: 0;
+    margin: 0 0 16px;
 }
 
 .cover__title:visited {
     color: #FFF;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        width: 100%*560/768;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 8px;
+        width: 288px;
+    }
 }
