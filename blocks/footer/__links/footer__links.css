@@ -2,4 +2,12 @@
     height: auto;
     display: flex;
     width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 580px) {
+    .footer__links {
+        flex-direction: column;
+    }
 }
