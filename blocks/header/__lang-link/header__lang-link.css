@@ -4,11 +4,11 @@
     font-size: 24px;
     font-weight: normal;
     line-height: 1.15;
+    text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
     margin-right: 0px;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 425px) {
