@@ -1,14 +1,15 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr calc(100%*484/944);
-    grid-template-rows: repeat(2, object-fit(460px));
+    grid-template-columns: calc(100%*460/984) 1fr;
+    grid-template-rows: repeat(2, fit-content(600px));
     margin: 80px 0 0;
     gap: 48px 40px;
+    max-width: 100%;
 }
 
 @media screen and (max-width:1024px) {
     .place {
-        grid-template-columns: 1fr calc(100%*456/896);
+        grid-template-columns: calc(100%*440/928) 1fr;
         gap: 48px 32px;
     }
 }
@@ -16,17 +17,18 @@
 @media screen and (max-width: 768px) {
     .place {
         margin-top: 73px;
-        grid-template-columns: 1fr calc(100%*352/692);
+        grid-template-columns: calc(100%*340/720) 1fr;
         gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .place {
         margin-top: 49px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, fit-content(425px));
         gap: 32px;
+        width: 100%;
     }
 }
 
