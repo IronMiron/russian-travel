@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 28px;
-    height: 52px;
     margin-left: 48px;
     margin-right: 48px;
 }
@@ -18,7 +17,6 @@
 @media screen and (max-width: 425px) {
     .header {
         padding-top: 16px;
-        height: 42px;
         margin-left: 16px;
         margin-right: 16px;
     }
